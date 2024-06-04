@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Zen+Dots&display=swap');
+
 .historia{
+    display: flex;
     background-color: white;
+    height: 400px;
+    justify-content: space-between;
+    
+}
+.historia h2{
+    font-family: 'Zen Dots';
+    
+}
+.historia p{
+    font-family:'Lato';
+    margin-top: 40px;
+    
+}
+
+.historia .text{
+    width: 50%;
+    line-height: 25px;
+    padding: 50px;
+}
+.historia .triangulo{
+    height: 100%;
+    margin-right: 0;
+    width: 450px;
 }

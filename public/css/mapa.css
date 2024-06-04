@@ -1,3 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap');
+
 .mapa{
     background-color: rgba(9, 50, 88, 1);
+    height: 400px;
+    color: white;
+    padding: 40px;
+}
+.mapa .loc h2{
+    font-family: 'Zen Dots';
+    font-size: 25pt;
+    letter-spacing: 4px;   
+}
+.mapa .loc p{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 13pt;
+    margin-top: 30px;
+}
+.mapa .loc .citys{
+    font-weight: 400;
+    font-size: 15pt
+}
+.loc input{
+    margin-top: 65px;
+    padding: 15px;
+    font-size: 12pt;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-family: 'Zen Dots';
+    color: black;
+    cursor: pointer;
+}
+.loc button{
+    padding: 15px;
+    font-size: 12pt;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-family: 'Zen Dots';
+    
+    color: black;
+    cursor: pointer;
+    border: 0;
+    margin-left: 5px;
+    background-color: rgba(109, 195, 243, 1);
 }

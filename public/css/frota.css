@@ -1,3 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+
 .frota{
+    display: flex;
+
     background-color: white;
+    height: 500px;
+    align-items:center;
+    justify-content: center;
+}
+.quadrado-frota img{
+    height: 400px;
+    width: 400px;
+}
+.quadrado-frota p{
+    font-family: 'Monomaniac One';
+    font-size: 30pt;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 70px;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+.quadrado-frota span{
+    font-size: 120pt;
+}
+.caminhao-frota{
+    margin-left: 0;
+}
+.caminhao-frota img{
+    height: 450px;
+    width: 800px;
 }

@@ -1,0 +1,10 @@
+.cidade{
+    height: 400px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.cidade img{
+    height: 200px;
+    width: 300px;
+}

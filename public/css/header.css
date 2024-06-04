@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap');
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    align-items: center;
+}
+.cabecalho .headline{
+    font-family: 'Work Sans';
+    font-size: 15pt;
+    letter-spacing: 10px;
+}
+.cabecalho .headline span{
+    font-family: 'Zen Dots';    
+    font-size: 25pt;
+    
+}
+.but{
+    width: 300px;
+    letter-spacing: 3px;
+}
+.but p{
+    font-family: 'Work Sans';
+    font-size: 10pt;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+.but button{
+    font-family: 'Viga';
+    font-size: 15px;
+    letter-spacing: 2px;
+    background-color: #093258;
+    border: none;
+    border-radius: 4px;
+    height: 50px;
+    width: 300px;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+}
