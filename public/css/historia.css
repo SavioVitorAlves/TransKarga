@@ -5,6 +5,7 @@
     background-color: white;
     height: 400px;
     justify-content: space-between;
+    position: relative;
     
 }
 .historia h2{
@@ -16,7 +17,6 @@
     margin-top: 40px;
     
 }
-
 .historia .text{
     width: 50%;
     line-height: 25px;
@@ -26,4 +26,19 @@
     height: 100%;
     margin-right: 0;
     width: 450px;
+}
+.historia .imagem-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    position: absolute;
+    top: 30px;
+    left: 750px;
+}
+.historia .imagem-grid img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
 }

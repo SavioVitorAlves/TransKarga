@@ -1,10 +1,15 @@
 .cidade{
+    display: flex;
     height: 400px;
     padding: 30px;
     align-items: center;
     justify-content: center;
+    
 }
-.cidade img{
-    height: 200px;
-    width: 300px;
+.cidade .carrosel{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    margin: 0;
 }
