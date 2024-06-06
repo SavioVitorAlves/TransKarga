@@ -15,6 +15,160 @@
     width: 350px;
 }
 .info .img-3{
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
+    
+    
+}
+.info .brasil-map{
+    position: relative;
+    margin: 0;
+}
+.pin{
+    background-color: white;
+    position: absolute;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 50%;
+}
+.pin::before{
+    content: '';
+    background:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    animation: 
+        pulse 1.3s ease-in-out infinite;
+}
+.um{
+    top: 130px;
+    left: 220px;
+}
+.dois{  
+    top: 200px;
+    left: 250px;
+}
+.tres{
+    top: 180px;
+    left: 280px;
+}
+.quatro{
+    top: 150px;
+    left: 150px;
+}
+.cinco{
+    top: 240px;
+    left: 220px;
+}
+.seis{
+    top: 100px;
+    left: 120px;
+}
+.sete{
+    top: 90px;
+    left: 100px;
+}
+.oito{
+    top: 120px;
+    left: 280px;
+}
+.nove{
+    top: 170px;
+    left: 290px;
+}
+.dez{
+    top: 230px;
+    left: 275px;
+}
+.onze{
+    top: 80px;
+    left: 190px;
+}
+.doze{
+    top: 90px;
+    left: 180px;
+}
+.treze{
+    top: 190px;
+    left: 150px;
+}
+.quatoze{
+    top: 180px;
+    left: 180px;
+}
+.quinze{
+    top: 185px;
+    left: 225px;
+}
+.dezeseis{
+    top: 180px;
+    left: 210px;
+}
+.dezesete{
+    top: 245px;
+    left: 265px;
+}
+.dezoito{
+    top: 220px;
+    left: 170px;
+}
+.dezenove{
+    top: 230px;
+    left: 160px;
+}
+.vinte{
+    top: 220px;
+    left: 170px;
+}
+.vinte-um{
+    top: 215px;
+    left: 220px;
+}
+.vinte-dois{
+    top: 240px;
+    left: 195px;
+}
+.vinte-tres{
+    top: 260px;
+    left: 195px;
+}
+.vinte-quatro{
+    top: 285px;
+    left: 200px;
+}
+.vinte-cinco{
+    top: 300px;
+    left: 190px;
+}
+.vinte-seis{
+    top: 90px;
+    left: 240px;
+}
+.vinte-sete{
+    top: 75px;
+    left: 245px;
+}
+.vinte-oito{
+    top: 90px;
+    left: 295px;
+}
+.vinte-nove{
+    top: 110px;
+    left: 325px;
+}
+.trinta{
+    top: 130px;
+    left: 325px;
+}
+@keyframes pulse{
+    100%{
+        opacity: 0;
+        transform: 
+        translate(-50%, -50%)
+        scale(2.5);
+    }
 }
