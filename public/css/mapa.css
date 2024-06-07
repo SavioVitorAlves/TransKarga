@@ -7,6 +7,7 @@
     color: white;
     padding: 40px;
     align-items: center;
+    justify-content: space-around;
     
 }
 .mapa .loc h2{
@@ -24,15 +25,9 @@
     font-weight: 400;
     font-size: 15pt
 }
-.loc input{
-    margin-top: 65px;
-    padding: 15px;
-    font-size: 12pt;
-    text-transform: uppercase;
-    border-radius: 10px;
-    font-family: 'Zen Dots';
-    color: black;
-    cursor: pointer;
+.loc div{
+    font-family: 'Montserrat';
+    font-size: 15pt;
 }
 .loc button{
     padding: 15px;
@@ -50,5 +45,7 @@
 .map{ 
     height: 250px;
     width: 450px; 
-    margin-left: 120px;
+}
+.city-loc{
+    margin-bottom: 5px;
 }

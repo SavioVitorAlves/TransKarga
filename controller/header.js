@@ -7,4 +7,5 @@ button.onclick = function (){
 }
 buttonClose.onclick = function (){
     modal.close();
+    alert("Sua Mensagem Foi Enviada! Obrigado pelo contado, em brave entraremos em contato com você pelo nomero adicionado!");
 } 

@@ -6,7 +6,8 @@
     background-color: white;
     height: 500px;
     align-items:center;
-    justify-content: center;
+    justify-content: space-around;
+
 }
 .quadrado-frota img{
     height: 400px;
