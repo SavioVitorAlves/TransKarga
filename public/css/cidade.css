@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Zen+Dots&display=swap');
 .cidade{
     display: flex;
     height: 400px;
@@ -12,4 +13,16 @@
     display: flex;
     align-items: center;
     margin: 0;
+}
+.cidade h2{
+    font-family: 'Zen Dots';
+}
+@media screen and (max-width: 600px) {
+    .cidade{
+        height: 300px;
+        flex-direction: column;
+    }
+    .cidade .carrosel{
+        width: 90%;
+    }
 }

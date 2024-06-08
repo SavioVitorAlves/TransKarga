@@ -8,6 +8,7 @@
     padding: 40px;
     align-items: center;
     justify-content: space-around;
+    overflow: hidden;
     
 }
 .mapa .loc h2{
@@ -48,4 +49,42 @@
 }
 .city-loc{
     margin-bottom: 5px;
+}
+
+@media screen  and (max-width: 790px){
+    .mapa .loc h2{
+        font-family: 'Zen Dots';
+        font-size: 15pt;
+        letter-spacing: 4px;   
+    }
+    .mapa .loc p{
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 10pt;
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+    .mapa .loc .citys{
+        font-weight: 400;
+        font-size: 10pt
+    }
+    .loc div{
+        font-family: 'Montserrat';
+        font-size: 13pt;
+        margin-bottom: 10px;
+    }
+}
+@media screen  and (max-width: 600px){
+    .mapa{
+        flex-direction: column;
+        height: 600px;
+    }
+    .loc button{
+        width: 250px;
+        margin-bottom: 15px;
+    }
+    .map{ 
+        height: 200px;
+        width: 100%; 
+    }
 }
