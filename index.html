@@ -43,24 +43,29 @@
             <p>Faça seu orçamento:</p> 
             <button type="submit" class="contato">Enviar Proposta</button>
             <dialog id="modal">
-                <header>
-                    <h2>Formulario de Envio</h2>
-                </header>
-                <form>
-                    <label for="username">Nome:</label>
-                    <input type="text" id="username" class="form-control" placeholder="Nome" required>
-                    <label for="exampleFormControlInput1" class="form-label">Melho Email:</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                    <label for="yourphone" class="form-label">Telefone:</label>
-                    <input type="tel" class="form-control" id="yourphone" placeholder="Telefone">
-                    <label for="exampleFormControlTextarea1" class="form-label">Adicionar Mensagem</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </form>
-                <div>
-                    <button type="submit" id="close" class="botao">Enviar</button>
-                    <button type="submit" id="close" class="botao">Cancelar</button>
+                <div class="logo">
+                    <img src="public/img/LOGO_SAVIO-removebg-preview.png" alt="Transportadora de Mudanças">
                 </div>
-                
+                <div class="dia">
+                    <header>
+                        <h3>Formulario de Envio</h3>
+                    </header>
+                    <form action="https://formsubmit.co/saviovitor2@gmail.com" method="POST">
+                        <label for="username">Nome:</label>
+                        <input type="text" id="username" class="form-control" placeholder="Nome" required>
+                        <label for="exampleFormControlInput1" class="form-label">Melho Email:</label>
+                        <input type="email" class="form-control" id="useremail" placeholder="name@example.com">
+                        <label for="yourphone" class="form-label">Telefone:</label>
+                        <input type="tel" class="form-control" id="userphone" placeholder="Telefone">
+                        <label for="exampleFormControlTextarea1" class="form-label">Adicionar Mensagem</label>
+                        <textarea class="form-control" id="usermsg" rows="3"></textarea>
+                        <div>
+                            <button type="submit" id="enviar" class="botao">Enviar</button>
+                            <button type="submit" id="cancell" class="botao">Cancelar</button>
+                        </div>
+                    </form>
+                    
+                </div>
             </dialog>
         </div> 
     </header>
@@ -192,6 +197,8 @@
     <footer>
         footer
     </footer>
+     <!-- script do site smtp.js para envio de emails -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script  src="controller/mapa.js"></script>
     <script src="controller/header.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

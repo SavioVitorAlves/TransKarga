@@ -47,22 +47,51 @@ dialog::backdrop{
     text-align: center; 
     color: white;
     height: 500px;
-    width: 40%;
+    width: 60%;
     background-color:#0878b9;
     border: none;
     border-radius: 1rem;
     box-shadow: 0 0 1em rgba(0, 0, 0, .3);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+.but dialog .dia{
+    float: left;
+    width: 50%;
+    
+}
+.but dialog .logo{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: #093258;
+    border-right: 1px solid black;
+}
+.but dialog img{
+    height: 250px;
+    width: 250px;
+    transform: translate(0, -50%);
+    margin-top: 60%;
+}
+.but header h3{
+    margin: 15px 30px 0 30px;
+    font-family: 'Zen Dots';
+    border-bottom: 1px solid;
 }
 .but dialog form{
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
     text-align: left;
-    margin: 10px;
+    margin: 0 30px 0 30px;
 }
 .but dialog form label{
     margin-bottom: 0;
     margin-top: .5rem;
+    font-family: 'Work Sans';
+    font-size: 10pt;
 }
 .botao{
     margin: 10px;
