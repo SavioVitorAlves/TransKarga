@@ -30,14 +30,14 @@
     <div class="navbar">
         <img src="public/img/LOGO_SAVIO-removebg-preview.png" alt="">
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Contato</a></li>
-            <li><a href="">Localização</a></li>
-            <li><a href="">Sobre</a></li>
+            <li><a href="index.html#cabecalho">Home</a></li>
+            <li><a href="index.html#footer">Contato</a></li>
+            <li><a href="index.html#mapa">Localização</a></li>
+            <li><a href="index.html#historia">Sobre</a></li>
             <li><a href="">Institucional</a></li>
         </ul>
     </div>
-    <header class="cabecalho">
+    <header class="cabecalho" id="cabecalho">
         <div class="headline">O melhor <span>Transporte</span><br> para suas <span>Mudanças!</span></div>
         <div class="but">
             <p>Faça seu orçamento:</p> 
@@ -54,11 +54,11 @@
                         <label for="username">Nome:</label>
                         <input type="text" id="username" class="form-control" placeholder="Nome" required>
                         <label for="exampleFormControlInput1" class="form-label">Melho Email:</label>
-                        <input type="email" class="form-control" id="useremail" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="useremail" placeholder="name@example.com" required>
                         <label for="yourphone" class="form-label">Telefone:</label>
-                        <input type="tel" class="form-control" id="userphone" placeholder="Telefone">
+                        <input type="tel" class="form-control" id="userphone" placeholder="Telefone" required>
                         <label for="exampleFormControlTextarea1" class="form-label">Adicionar Mensagem</label>
-                        <textarea class="form-control" id="usermsg" rows="3"></textarea>
+                        <textarea class="form-control" id="usermsg" rows="3"></textarea required>
                         <div>
                             <button type="submit" id="enviar" class="botao">Enviar</button>
                             <button type="submit" id="cancell" class="botao">Cancelar</button>
@@ -84,7 +84,7 @@
             <img src="public/img/caminhoes-1.png">
         </figure>
     </section>
-    <section class="mapa">
+    <section class="mapa" id="mapa">
         <div class="loc">
             <h2>Nossas Localizações:</h2>
             <p class="citys">Araguaina-TO, Recife-CE, São Paulo-SP, Belo <br>Horizonte-MG, Belem-PA</p>
@@ -136,7 +136,7 @@
 
         </figure>
     </section>
-    <section class="historia">
+    <section class="historia" id="historia">
         <div class="text">
             <h2>Nossas Historia</h2>
             <p>Há mais de uma década e meia, a MoveSeguro começou como um sonho compartilhado por um grupo de amigos com uma visão única: fornecer um serviço de mudança residencial excepcional e confiável. O ano era 2009, quando esses amigos, movidos por uma paixão compartilhada por cuidar das necessidades das pessoas durante um dos momentos mais estressantes de suas vidas - a mudança de residência - decidiram unir forças e criar uma empresa que fizesse a diferença.
@@ -194,7 +194,7 @@
               </div>
         </figure>
     </section>
-    <footer>
+    <footer id="footer">
         footer
     </footer>
      <!-- script do site smtp.js para envio de emails -->
