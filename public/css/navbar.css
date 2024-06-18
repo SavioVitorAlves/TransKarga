@@ -26,3 +26,24 @@
     color: #8d8b8b;
  
 }
+.navbar span {
+    display: none;
+    margin-bottom: 25px;
+    color: white;
+}
+.menu-mobile{
+    background-color: rgba(9, 50, 88, 1);
+    display: none;
+}
+@media screen and (max-width: 660px){
+    .navbar{
+        padding: 0 20px 0 20px;
+    }
+    .navbar ul{
+        display: none;
+        
+    }
+    .navbar span{
+        display: block;
+    }
+}
