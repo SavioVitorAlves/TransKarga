@@ -34,6 +34,27 @@
 .menu-mobile{
     background-color: rgba(9, 50, 88, 1);
     display: none;
+    cursor: pointer;
+    position: absolute;
+    width: 50%;
+    right: 0;
+    
+
+}
+.menu-mobile ul{
+    /*display: flex;
+    flex-direction: row;*/
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+.menu-mobile ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu-mobile ul li a:hover{
+    color: #8d8b8b;
+ 
 }
 @media screen and (max-width: 660px){
     .navbar{
@@ -45,5 +66,11 @@
     }
     .navbar span{
         display: block;
+    }
+    
+}
+@media screen and (min-width: 660px){
+    .menu-mobile ul{
+        display: none;
     }
 }
