@@ -22,11 +22,13 @@
     width: 50%;
     line-height: 25px;
     padding: 50px;
+    z-index: 3;
 }
 .historia .triangulo{
     height: 100%;
     margin-right: 0;
     width: 450px;
+    z-index: 1;
 }
 .historia .imagem-grid{
     display: grid;
@@ -43,6 +45,7 @@
 .historia .imagem-grid img{
     height: 150px;
     width: 100%;
+    z-index: 2;
 }
 
 @media screen and (max-width: 1180px) {
@@ -112,6 +115,7 @@
         position: absolute;
         text-align: justify;
         width: 100%;
+        color: black;
     }
    
     .historia .triangulo{
@@ -123,5 +127,13 @@
     .historia .imagem-grid img{
         height: 140px;
         width: 270px;
+    }
+    @media screen and (max-width: 345px) {
+        .historia{
+            height: 1600px;
+        }
+        .historia .imagem-grid{
+            margin-top: 950px;
+        }
     }
 }
