@@ -28,11 +28,40 @@ Este repositório contém o código-fonte da nossa Landing Page, onde você enco
 <a href = "https://www.linkedin.com/in/saviovitoralves/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
 ## Requesitos
-## Requisitos Funcionais
-## Requisitos Não Funcional
 
-## Diagramas
+| Requesitos Funcionais           | Requesios Não Funcionais        |
+|---------------------------------|---------------------------------|
+| Deve conter uma logo solida para representar a marca da transportadora de mudanças; | O serviço devera esta disposto a todos no padrao 24/7;|
+| A página deve proporcionar uma descrição com o nome "sobre" que apresentar as principais informações sobre a empresa; | Não podera possibilitar falhas no envio dos formularios;| 
+| A página deve proporcionar uma descrição com o nome "sobre" que apresentar as principais informações sobre a empresa;| Para funcionamento correto do mapa o serviço de geolocalização devera estar ativado durante a pesquisa de disancia;| 
+| Deve conter informações como: tamanho de frota, cidades presentes, quantidade de clientes, quantidade de viagens q já foram feitas; | Os navegadores deveram estar atualizados; | 
+| A página deve conter um mapa diretamente do google maps com a localização exata da empresa, podendo tambem conte um filtro por cidade; || 
+| Devera conter imagens dos trabalhadores e das frotas; | | 
+| Devera conter imagens dos lugares onde já foram visitados em todo o brasil; | | 
 
+
+
+
+
+
+
+
+ 
+
+## Diagramas de Sequencia
+```mermaid
+sequenceDiagram
+    participant Cliente
+    participant Sistema
+    participant Administrador
+
+    Cliente->>Sistema: Verifica Cidade Proxima no Mapa
+    Cliente->>Sistema: Solicita mudança
+    Sistema->>Administrador: Notifica nova solicitação
+    Administrador-->>Cliente: Entra em Contato
+    Cliente->>Sistema: Avaliação do serviço
+    Sistema-->>Cliente: Agradecimento e encerramento
+```
 ## Tecnologias Usadas
 <div style="display: inline_block"><br>
   <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
